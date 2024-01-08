@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    border: solid 1px red;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+}
+
+.left-column{
+    width: 30%;
+   background-color: black;
+    border: solid 1px red;
+}
+
+.right-column{
+    width: 70%;
+    
+    border: solid 1px rgb(76, 0, 255);
+}
+
+.left-column li {
+    background-color: white;
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1px 0px;
+    cursor: pointer;
+    padding: 29px 8px 29px 12px;
+}
+
+
+
